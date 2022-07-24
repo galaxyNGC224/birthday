@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<div class="header">
+    <h1>User {{ name }} is {{ result }} {{ action }}!</h1>
+</div>
+
+    <script>
+        setTimeout(function(){
+           window.location.href = '/';
+        }, 2000);
+     </script>
+
+
+{% endblock %}
